@@ -16,6 +16,7 @@ Server: Node.js, Express.js, MongoDB, Mongoose, CORS
 Deployment: Render (Frontend & Backend), MongoDB Atlas
 
 📖 Project Description
+
 A personal API playground designed to showcase my developer profile, skills, and projects through a RESTful API interface. The platform serves as a dynamic portfolio that can be accessed programmatically, demonstrating backend API development skills and modern frontend implementation.
 
 🏗️ Architecture
