@@ -103,7 +103,7 @@ Build command: npm run build
 
 Publish directory: dist
 
-Environment variable: VITE_API_URL: https://meapi-8qly.onrender.com
+
 
 🗄️ Database Schema
 User Collection Schema
