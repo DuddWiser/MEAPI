@@ -7,7 +7,7 @@ app.use(express.json())
 const userRoutes = require("./routes/userRoutes")
 
 app.use(cors({
-  origin: "http://localhost:5173",  
+  origin: "https://meapi-frontend.onrender.com",  
   credentials: true                 
 }));
 
