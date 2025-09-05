@@ -4,28 +4,30 @@ A personal API showcase built with the MERN stack that displays my profile, skil
 🌐 Live Demo
 Frontend: https://meapi-frontend.onrender.com/
 
+Backend API: https://meapi-8qly.onrender.com
+
 Health Check: https://meapi-8qly.onrender.com/health
 
 GitHub Repository: https://github.com/DuddWiser/MEAPI
 
 Resume: https://drive.google.com/file/d/1oerVbfR8H9_WOQ143YU9cOmI5O_jewNz/view?usp=drive_link
 
-🛠 Tech Stack
+🛠️ Tech Stack
 Client: React, JavaScript, TailwindCSS, Vite
 Server: Node.js, Express.js, MongoDB, Mongoose, CORS
 Deployment: Render (Frontend & Backend), MongoDB Atlas
 
 📖 Project Description
-A personal API playground designed to showcase my developer profile, skills, and projects through a RESTful API interface. The platform serves as a dynamic portfolio that can be accessed programmatically, demonstrating backend API development skills and modern frontend implementation with a sleek glassmorphism UI design.
+A personal API playground designed to showcase my developer profile, skills, and projects through a RESTful API interface. The platform serves as a dynamic portfolio that can be accessed programmatically, demonstrating backend API development skills and modern frontend implementation.
 
-🏗 Architecture
+🏗️ Architecture
 System Architecture
 text
 Client (React Frontend) → API Gateway (Express.js) → MongoDB Database
 Frontend Architecture
 Framework: React 18 with Vite
 
-Styling: Tailwind CSS with custom glassmorphism design
+Styling: Tailwind CSS
 
 State Management: React Hooks
 
@@ -56,8 +58,8 @@ Git
 Backend Setup
 bash
 # Clone repository
-git clone https://github.com/Nishant-NITG/Me-API-Playground.git
-cd Me-API-Playground/backend
+git clone https://github.com/DuddWiser/MEAPI.git
+cd MEAPI/backend
 
 # Install dependencies
 npm install
@@ -102,9 +104,9 @@ Build command: npm run build
 
 Publish directory: dist
 
-Environment variable: VITE_API_URL: your-backend-url.onrender.com
+Environment variable: VITE_API_URL: https://meapi-8qly.onrender.com
 
-🗄 Database Schema
+🗄️ Database Schema
 User Collection Schema
 javascript
 {
@@ -141,13 +143,15 @@ Indexes
 email: Unique index for user identification
 
 📡 API Endpoints
-Base URL: https://me-api-playground-backend-4n1g.onrender.com/api
+Base URL: https://meapi-8qly.onrender.com/api
+
 Method	Endpoint	Description	Parameters
 GET	/user	Get complete user profile	None
 PUT	/user	Create or update user profile	User data in body
 GET	/user/projects	Get projects filtered by skill	skill (query parameter)
 GET	/user/skills/top	Get top skills by usage	None
 GET	/user/search	Search across all user data	q (query parameter)
+🧪 API Examples
 cURL Examples
 Health Check:
 
@@ -186,9 +190,9 @@ json
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://me-api-playground-backend-4n1g.onrender.com/health",
+          "raw": "https://meapi-8qly.onrender.com/health",
           "protocol": "https",
-          "host": ["me-api-playground-backend-4n1g", "onrender", "com"],
+          "host": ["meapi-8qly", "onrender", "com"],
           "path": ["health"]
         }
       }
@@ -199,9 +203,9 @@ json
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://me-api-playground-backend-4n1g.onrender.com/api/user",
+          "raw": "https://meapi-8qly.onrender.com/api/user",
           "protocol": "https",
-          "host": ["me-api-playground-backend-4n1g", "onrender", "com"],
+          "host": ["meapi-8qly", "onrender", "com"],
           "path": ["api", "user"]
         }
       }
@@ -212,9 +216,9 @@ json
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://me-api-playground-backend-4n1g.onrender.com/api/user/projects?skill=javascript",
+          "raw": "https://meapi-8qly.onrender.com/api/user/projects?skill=javascript",
           "protocol": "https",
-          "host": ["me-api-playground-backend-4n1g", "onrender", "com"],
+          "host": ["meapi-8qly", "onrender", "com"],
           "path": ["api", "user", "projects"],
           "query": [
             {
@@ -231,9 +235,9 @@ json
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://me-api-playground-backend-4n1g.onrender.com/api/user/search?q=react",
+          "raw": "https://meapi-8qly.onrender.com/api/user/search?q=react",
           "protocol": "https",
-          "host": ["me-api-playground-backend-4n1g", "onrender", "com"],
+          "host": ["meapi-8qly", "onrender", "com"],
           "path": ["api", "user", "search"],
           "query": [
             {
@@ -250,16 +254,16 @@ json
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://me-api-playground-backend-4n1g.onrender.com/api/user/skills/top",
+          "raw": "https://meapi-8qly.onrender.com/api/user/skills/top",
           "protocol": "https",
-          "host": ["me-api-playground-backend-4n1g", "onrender", "com"],
+          "host": ["meapi-8qly", "onrender", "com"],
           "path": ["api", "user", "skills", "top"]
         }
       }
     }
   ]
 }
-⚠ Known Limitations
+⚠️ Known Limitations
 Authentication: No authentication mechanism for write operations
 
 Rate Limiting: No rate limiting implemented
@@ -276,12 +280,11 @@ Caching: No response caching implemented
 
 Image Uploads: No support for profile image uploads
 
-📞 Contact 
+📞 Contact
 Kunal Maka
 📧 makakunal072004@gmail.com
 🔗 LinkedIn Profile
 🐙 GitHub Profile
-
 
 📄 License
 MIT License - see LICENSE file for details.
