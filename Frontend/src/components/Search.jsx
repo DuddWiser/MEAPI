@@ -14,7 +14,7 @@ const Search = () => {
     setError(null)
 
     try {
-      const response = await fetch(`http://localhost:5000/api/user/search?q=${encodeURIComponent(query)}`)
+      const response = await fetch(`https://meapi-8qly.onrender.com/api/user/search?q=${encodeURIComponent(query)}`)
       if (!response.ok) {
         throw new Error('Search failed')
       }
