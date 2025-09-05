@@ -4,8 +4,6 @@ A personal API showcase built with the MERN stack that displays my profile, skil
 🌐 Live Demo
 Frontend: https://meapi-frontend.onrender.com/
 
-Backend API: https://meapi-8qly.onrender.com
-
 Health Check: https://meapi-8qly.onrender.com/health
 
 GitHub Repository: https://github.com/DuddWiser/MEAPI
